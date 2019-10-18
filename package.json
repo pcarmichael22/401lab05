@@ -1,0 +1,29 @@
+{
+  "name": "401lab05",
+  "version": "1.0.0",
+  "description": "Lab 05 - Peter Carmichael - Data Modeling With NoSQL Databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
+    "lint": "eslint './**/*.js' --fix",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcarmichael22/401lab05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcarmichael22/401lab05/issues"
+  },
+  "homepage": "https://github.com/pcarmichael22/401lab05#readme",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "mongodb-memory-server": "^5.2.8",
+    "supertest": "^4.0.2",
+    "uuid": "^3.3.3"
+  }
+}
